@@ -27,7 +27,6 @@ services:
         depends_on:
             - db
             - es
-            - memcached
         cap_add:
             - ALL
         volumes:
